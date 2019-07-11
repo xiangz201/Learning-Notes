@@ -42,7 +42,7 @@ def merge_sort1(lists):
     return merge1(left, right)
 
 
-"""方法1：对数组整体排序 """
+"""方法2：对数组部分排序 """
 
 
 def merge2(a, left, middle, right):
