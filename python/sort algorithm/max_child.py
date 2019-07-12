@@ -5,6 +5,9 @@ def create_array(num):
     return np.random.randint(-10, 10, size=num)
 
 
+'''分治算法O(nlogn)'''
+
+
 def max_cross_subarray(low, mid, high, array):
     max_low, max_high = low, high
     left_sum = float("-inf")
@@ -45,8 +48,34 @@ def max(a, b, c):
         return c
 
 
+'''动态规划算法O(n)'''
+
+
+def max_find(arr):
+    max = arr[0]
+    sum = arr[0]
+    x = y = m = 0
+    for i in range(1, len(arr)):
+        if sum > 0:
+            sum += arr[i]
+            if sum > max:
+                x = m
+                max = sum
+                y = i
+        else:
+            sum = arr[i]
+            m = i
+            if sum > max:
+                x = i
+                max = sum
+                y = i
+
+    return [x, y, max]
+
+
 if __name__ == '__main__':
     arr = create_array(10)
     print(arr)
-    result = max_subarray(arr,0,len(arr)-1)
+    result = max_subarray(arr, 0, len(arr) - 1)
     print(result)
+    print(max_find(arr))
