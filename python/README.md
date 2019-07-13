@@ -1,7 +1,7 @@
-# Learning-Notes
-the algorithm written in python
-## [插入排序](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/insertion_sort.py)
-## [归并排序](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/merge_sort.py)
-## [最大子数组](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/max_child.py)
-## [堆排序](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/heapsort.py)
-## [快速排序](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/quicksort.py)
+# 目录(contents)
+用python写的算法(the algorithm written in python)
+### [插入排序insertion-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/insertion_sort.py)
+### [归并排序merge-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/merge_sort.py)
+### [最大子数组max-child](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/max_child.py)
+### [堆排序heap-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/heapsort.py)
+### [快速排序quick-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/quicksort.py)
