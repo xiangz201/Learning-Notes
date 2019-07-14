@@ -8,3 +8,6 @@
 ### [计数排序counting-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/counting_sort.py)
 ### [桶排序bucket-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/bucket_sort.py)
 ### [选择算法randomize-select](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/randomized_select.py)
+### [手写栈stack](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/stack.py)
+### [手写队列queue](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/queue.py)
+### [手写链表link-list](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/linklist.py)
