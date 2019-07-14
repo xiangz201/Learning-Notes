@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 """
-用list实现队列
+自己实现队列
 建立头结点类和节点类
 队列有一个头结点，头结点左边指向最后一个元素，头结点右边指向第一个元素
 节点类有一个指针指向下一个元素，一个指针指向value
@@ -96,8 +96,9 @@ class Queue(object):
         else:
             raise LookupError('queue is empty')
 
-
-a = Queue()
-a.enqueue(12)
-a.enqueue(21)
-print(a.top(), a.size())
+#测试用例
+#a = Queue()
+#a.enqueue(12)
+#a.enqueue(21)
+#print(a.top(), a.size())
+#print(a.dequeue,a.size())
