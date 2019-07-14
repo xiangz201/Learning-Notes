@@ -7,3 +7,4 @@
 ### [快速排序quick-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/quicksort.pya)
 ### [计数排序counting-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/counting_sort.py)
 ### [桶排序bucket-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/bucket_sort.py)
+### [选择算法randomize-select](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/randomized_select.py)
