@@ -4,4 +4,6 @@
 ### [归并排序merge-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/merge_sort.py)
 ### [最大子数组max-child](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/max_child.py)
 ### [堆排序heap-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/heapsort.py)
-### [快速排序quick-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/quicksort.py)
+### [快速排序quick-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/sort%20algorithm/quicksort.pya)
+### [计数排序counting-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/counting_sort.py)
+### [桶排序bucket-sort](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/bucket_sort.py)
