@@ -12,3 +12,5 @@
 ### [手写队列queue](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/queue.py)
 ### [手写链表link-list](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/linklist.py)
 ### [手动树及遍历tree and traversal](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/tree.py)
+### [图的bfs和dfs map_traversal](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/map_traversal.py)
+### [二叉搜索树相关操作Binary Search Tree](https://github.com/xiangz201/Learning-Notes/blob/master/python/algorithm/tree_bst.py)
