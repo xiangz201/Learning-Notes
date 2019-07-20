@@ -2,14 +2,13 @@
 """
 二叉搜索树的插入，删除，查询操作
 =============================
-isEmpty()                      判断是否为空,空则返回True，不空则返回False
-build(list)                    生成二叉树的结构，返回根节点
-build_tree(list)               生成二叉树，返回二叉树
-preOrder_traversal()           先序遍历，返回遍历结果列表
-inOrder_traversal()            中序遍历，返回遍历结果列表
-inOrder_traversal()            后序遍历，返回遍历结果列表
-bfs(node_root)                 广义优先遍历，返回遍历结果列表
-dfs(node_root)                 未定义
+search(val)                    判断是否存在值val,存在则返回True，不空则返回False
+insert(root,val)               在以root为根节点的二叉搜索树中插入值val,返回根节点
+find_min(root)                 返回以root为根节点的二叉树的最小值所在的节点
+find_max(root)                 返回以root为根节点的二叉树的最大值所在的节点
+find_parent(node):             返回node节点双亲节点，没有则返回None
+find_successor(root)           返回root节点的后继节点，没有则返回None
+delete_node(root,val)          删除以root为根节点的二叉搜索树的值为val的节点，返回根节点
 =============================
 example:构建如下搜索树
            12
@@ -82,7 +81,6 @@ class bsf(object):
         root = self.root
         parent = None
         if node.val == root.val:
-            print('该位置没有后继元素')
             return
         while root:
             if root.val > node.val:
