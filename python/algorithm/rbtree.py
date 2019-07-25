@@ -124,7 +124,7 @@ class RBTree(object):
                     z.parent.color = 'B'               #case3
                     z.parent.parent.color = 'R'        #case3
                     self.right_rotate(z.parent.parent) #case3
-        if z.parent == z.parent.parent.right:
+        else:
             while z.parent.color == 'R':
                 y = z.parent.parent.left
                 if y.color == 'R':
@@ -205,7 +205,7 @@ class RBTree(object):
                     w.right.color = 'B'             #case4
                     self.left_rotate(x.parent)      #case4
                     x = self.root                   #case4
-        if x == x.parent.right:
+        else:
             while x != self.root and x.color == 'B':
                 w = x.parent.left
                 if w.color == 'R':
