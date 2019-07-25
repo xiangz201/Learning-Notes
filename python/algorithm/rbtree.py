@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 """
-二叉搜索树的插入，删除，查询操作
+红黑树的旋转，插入，删除操作
 =============================
 left_rotate(x: RBNode)          节点x上做左旋
 right_rotate(x: RBNode)         节点x上做右旋
